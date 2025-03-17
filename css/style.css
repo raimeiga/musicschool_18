@@ -252,27 +252,6 @@ img {
           transform: scaleX(1);
 }
 
-.c-btn {
-  background-color: #bc0000;
-  color: #fff;
-  border: 0.1rem solid transparent;
-  -webkit-transition: background-color 0.4s, color 0.4s, border 0.4s;
-  transition: background-color 0.4s, color 0.4s, border 0.4s;
-}
-
-.c-btn:hover {
-  background-color: #fff;
-  color: #bc0000;
-  border: 0.1rem solid #bc0000;
-}
-
-.c-btn--header {
-  padding: 0.7rem 3rem 0.5rem;
-  margin-left: 3.3rem;
-  font-size: 1.5rem;
-  line-height: 2.2;
-}
-
 .l-inner {
   max-width: 94rem;
   width: 100%;
