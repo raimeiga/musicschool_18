@@ -1,3 +1,9 @@
 @use '../foundation/mixin' as *;
 @use '../foundation/variable' as *;
 
+.l-inner {
+ max-width: 94rem;
+ width: 100%;
+ padding-inline: 3rem;
+ margin: 0 auto;
+}

@@ -1,2 +1,84 @@
 @use '../../foundation/mixin' as *;
 @use '../../foundation/variable' as *;
+
+.p-top__fv {
+ width: 100%;
+}
+
+.p-top-fv__inner {
+ width: 100%;
+ position: absolute;
+}
+
+.p-top-fv__img {
+ width: 100%;
+ position: relative;
+}
+
+.p-top-fv__img::before {
+ content: '';
+ background-color: rgba(80, 80, 80, 0.502);
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+}
+
+.p-top-fv__text {
+ // background-color: red;
+ width: 100%;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color: #fff;
+ font-size: 4rem;
+ line-height: calc(60 / 40);
+ @include sp {
+  top: 51%;
+ left: 50%;
+ transform: translate(-50%,-49%);
+   font-size: 3rem;
+   line-height: calc(50 / 30);
+ }
+}
+
+
+//------------.p-top__concept----------
+
+.p-top__concept {
+ padding-block: 6.6rem 5.5rem;
+ @include sp {
+   padding-block: 4.6rem 3.4rem;
+ }
+}
+
+.p-top-concept__head{
+ width: 100%;
+ text-align: center;
+ color: $color-red;
+ font-size: 3.5rem;
+ line-height: calc(50 / 30);
+ @include sp {
+  font-size: 2.5rem;
+  line-height: calc(40 / 25);
+ }
+}
+
+.p-top-concept__text {
+ width: 100%;
+ text-align: center;
+ font-size: 1.8rem;
+ line-height: calc(30 / 18);
+ font-weight: 500;
+ padding-block: 1.7rem 3.4rem;
+ @include sp {
+   padding-block: 0.7rem 2rem;
+ }
+}
+
+// .p-top-concept__img {
+//  width: 100%;
+// }
+
