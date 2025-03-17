@@ -6,4 +6,7 @@
  width: 100%;
  padding-inline: 3rem;
  margin: 0 auto;
+ @include sp {
+  padding-inline: 2rem;
+ }
 }
